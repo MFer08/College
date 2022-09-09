@@ -1,0 +1,597 @@
+        html body {
+            min-height: 100%;
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            align-items: center;
+            scroll-behavior: smooth;
+        }
+        
+        header {
+            margin-bottom: 50px;
+            position: relative;
+        }
+        
+        .navbar {
+            display: flex;
+            flex-basis: content;
+            color: white;
+            margin: 0;
+            justify-content: space-around;
+        }
+        
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-family: 'Cormorant SC', serif;
+            font-size: 1rem;
+        }
+        
+        .navbar a:hover {
+            color: #E7AB79;
+        }
+        
+        .navbar li {
+            padding-right: 50px;
+        }
+        
+        .navbar ul {
+            margin: 0px 20px 0px 30px;
+        }
+        
+        .banner {
+            display: flex;
+            position: absolute;
+        }
+        
+        .banner-bar {
+            margin: 0%;
+            width: 100%;
+        }
+        
+        .sct-1 {
+            display: flex;
+            margin-top: 700px;
+            align-content: center;
+        }
+        
+        .new {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .bottle img {
+            width: 200px;
+        }
+        
+        .txt-1 {
+            margin-left: 2rem;
+            margin-top: 8rem;
+            max-width: 800px;
+            border: #E7AB79 5px solid;
+            padding: 6rem;
+            border-radius: 20px;
+            max-height: 28rem;
+        }
+        
+        .txt-1 h1 {
+            font-family: 'Cormorant SC', serif;
+            color: #B25068;
+            font-weight: 500;
+        }
+        
+        .txt-1 p {
+            font-weight: 300;
+            margin-bottom: 2rem;
+        }
+        
+        .btn-1 {
+            background-color: #B25068;
+            color: white;
+            border: #B25068 solid;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        
+        .btn-1:hover {
+            background-color: #774360;
+        }
+        
+        .sct-2 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            align-content: center;
+        }
+        
+        .tittle-2 {
+            display: flex;
+            justify-content: center;
+        }
+        
+        .tittle-2 h1 {
+            font-family: 'Cormorant SC', serif;
+            color: #E7AB79;
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        
+        .elite {
+            display: flex;
+            margin-top: 20px;
+        }
+        
+        .elite img {
+            width: 480px;
+            margin: 0;
+        }
+        
+        .sct-3 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .paraplax-t h1 {
+            color: white;
+            font-family: 'Cormorant SC', serif;
+            font-size: 4rem;
+        }
+        
+        .paraplax-1 {
+            width: 100%;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-image: url("/one_page/img/vinos-espumosos.jpeg");
+            background-attachment: fixed;
+            background-position: center;
+            margin-bottom: 50px;
+            justify-content: center;
+        }
+        
+        .vinos-esp {
+            display: flex;
+            justify-content: space-around;
+            margin: 0px 0px 20px 0px;
+        }
+        
+        .card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        .card img {
+            width: 300px;
+        }
+        
+        .card h4 {
+            font-family: 'Cormorant SC', serif;
+            font-size: 1.2rem;
+        }
+        
+        .card p {
+            font-weight: 100;
+            font-size: 1rem;
+            margin-bottom: 35px;
+        }
+        
+        .btn-2 {
+            text-decoration: none;
+            background-color: #B25068;
+            color: white;
+            border: #B25068 solid;
+            padding: 10px 20px;
+            border-radius: 20px;
+        }
+        
+        .btn-2:hover {
+            text-decoration: none;
+            color: white;
+            background-color: #774360;
+            border: #774360 solid;
+        }
+        
+        .sct-4 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .sct-4 h1 {
+            font-family: 'Cormorant SC', serif;
+            color: #E7AB79;
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        
+        .sct-4 p {
+            font-weight: 100;
+            font-size: 1.2rem;
+        }
+        
+        .form {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+        }
+        
+        .form-1 {
+            width: 500px;
+            margin: 20px;
+        }
+        
+        .casilla {
+            margin-bottom: 30px;
+        }
+        
+        .casilla label {
+            font-weight: 300;
+            color: #774360;
+        }
+        
+        .botones {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .botones button {
+            margin: 0px 20px 0px 20px;
+            padding: 15px 25px;
+        }
+        
+        .sct-5 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .txt-3 {
+            display: flex;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .paraplax-2 {
+            width: 100%;
+            height: 220px;
+            display: flex;
+            align-items: center;
+            text-align: center;
+            background-image: url("/one_page/img/vinos-conocenos.jpeg");
+            background-attachment: fixed;
+            background-position: center;
+            margin-bottom: 50px;
+            justify-content: center;
+        }
+        
+        .paraplax-t h1 {
+            color: white;
+            font-family: 'Cormorant SC', serif;
+            font-size: 4rem;
+        }
+        
+        .know {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            width: 800px;
+            padding: 30px;
+        }
+        
+        .know h2 {
+            font-family: 'Cormorant SC', serif;
+            color: #B25068;
+            font-size: 2.5rem;
+        }
+        
+        .know p {
+            text-align: justify;
+            margin-bottom: 30px;
+            padding: 0px 50px;
+        }
+        
+        .icones {
+            color: #774360;
+            font-size: 2rem;
+            padding: 8px;
+        }
+        
+        .icones i {
+            margin-left: 20px;
+        }
+        
+        .icones i:hover {
+            color: #B25068;
+        }
+        
+        .sct-6 {
+            display: flex;
+            flex-direction: column;
+            margin-top: 100px;
+            align-content: center;
+            justify-content: center;
+        }
+        
+        .tittle-3 {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+        
+        .tittle-3 h1 {
+            font-family: 'Cormorant SC', serif;
+            color: #E7AB79;
+            font-size: 3rem;
+            font-weight: 500;
+        }
+        
+        .articulos {
+            display: flex;
+            justify-content: space-around;
+            margin: 0px 0px 20px 0px;
+        }
+        
+        footer {
+            background-color: #342938;
+        }
+        
+        .footr {
+            display: flex;
+            align-content: center;
+            justify-content: space-around;
+            padding: 30px;
+        }
+        
+        .footr h4 {
+            color: white;
+            font-family: 'Cormorant SC', serif;
+            font-size: 1.5rem;
+        }
+        
+        .part img {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .part iframe {
+            width: 200px;
+            height: 200px;
+        }
+        
+        .part p {
+            color: white;
+            font-weight: 100;
+        }
+        
+        .part i {
+            color: white;
+            font-size: 2rem;
+            padding-left: 40px;
+        }
+        
+        @media (max-width: 768px) {
+            .sct-1 {
+                display: flex;
+                margin-top: 30px;
+                align-content: center;
+                justify-content: center;
+            }
+            .new {
+                display: flex;
+                flex-direction: column-reverse;
+                align-content: center;
+                justify-content: center;
+                margin-top: 100px;
+                text-align: center;
+            }
+            .bottle img {
+                margin-left: 3rem;
+                margin-top: 2rem;
+                width: 100px;
+            }
+            .btn-1 {
+                background-color: #B25068;
+                color: white;
+                border: #B25068 solid;
+                padding: 5px 10px;
+            }
+            .txt-1 {
+                padding: 2rem;
+                border-radius: 20px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sct-2 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+                align-content: center;
+                justify-content: center;
+            }
+            .tittle-2 {
+                display: flex;
+                justify-content: center;
+            }
+            .tittle-2 h1 {
+                font-family: 'Cormorant SC', serif;
+                color: #E7AB79;
+                font-size: 3rem;
+                font-weight: 500;
+            }
+            .elite {
+                display: flex;
+                flex-direction: column;
+                align-content: center;
+                justify-content: center;
+                margin-top: 20px;
+            }
+            .elite img {
+                width: 380px;
+                margin: 0;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sct-3 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+                align-content: center;
+                justify-content: center;
+            }
+            .paraplax-t h1 {
+                color: white;
+                font-family: 'Cormorant SC', serif;
+                font-size: 3rem;
+            }
+            .paraplax-1 {
+                width: 100%;
+                height: 150px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                background-image: url("/img/vinos-espumosos.jpeg");
+                background-attachment: fixed;
+                background-position: center;
+                margin-bottom: 50px;
+                justify-content: center;
+            }
+            .vinos-esp {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                margin: 20px 20px;
+            }
+            .card {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                padding: 20px;
+                margin: 20px 0px 20px 60px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sct-5 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+                align-content: center;
+                justify-content: center;
+            }
+            .txt-3 {
+                display: flex;
+                align-content: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            .paraplax-2 {
+                width: 100%;
+                height: 150px;
+                display: flex;
+                align-items: center;
+                text-align: center;
+                background-image: url("/img/vinos-espumosos.jpeg");
+                background-attachment: fixed;
+                background-position: center;
+                margin-bottom: 50px;
+                justify-content: center;
+            }
+            .paraplax-t h1 {
+                color: white;
+                font-family: 'Cormorant SC', serif;
+                font-size: 3rem;
+            }
+            .know {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                text-align: center;
+                width: 500px;
+                padding: 30px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .sct-6 {
+                display: flex;
+                flex-direction: column;
+                margin-top: 100px;
+                align-content: center;
+                justify-content: center;
+            }
+            .tittle-3 {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 20px;
+            }
+            .tittle-3 h1 {
+                font-family: 'Cormorant SC', serif;
+                color: #E7AB79;
+                font-size: 3rem;
+                font-weight: 500;
+            }
+            .articulos {
+                display: flex;
+                justify-content: space-around;
+                margin: 0px 0px 20px 0px;
+                flex-direction: column;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            footer {
+                background-color: #342938;
+            }
+            .footr {
+                display: flex;
+                align-content: center;
+                flex-direction: column;
+                justify-content: center;
+                padding: 30px;
+            }
+            .footr h4 {
+                color: white;
+                font-family: 'Cormorant SC', serif;
+                font-size: 1.5rem;
+            }
+            .part {
+                margin-bottom: 20px;
+            }
+            .part img {
+                width: 200px;
+                height: 200px;
+            }
+            .part iframe {
+                width: 200px;
+                height: 200px;
+            }
+            .part p {
+                color: white;
+                font-weight: 100;
+            }
+            .part i {
+                color: white;
+                font-size: 2rem;
+                padding-left: 40px;
+            }
+        }
